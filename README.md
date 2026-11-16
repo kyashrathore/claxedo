@@ -8,11 +8,11 @@ This repository holds issues and discussions only. It contains no source code.
 
 | You want to | Go to |
 | --- | --- |
-| Report a bug | [New bug report](https://github.com/kyashrathore/claxedo-feedback/issues/new?template=bug-report.yml) |
-| Request a feature | [New feature request](https://github.com/kyashrathore/claxedo-feedback/issues/new?template=feature-request.yml) |
-| Ask a question or share an idea | [Discussions](https://github.com/kyashrathore/claxedo-feedback/discussions) |
+| Report a bug | [New bug report](https://github.com/kyashrathore/claxedo/issues/new?template=bug-report.yml) |
+| Request a feature | [New feature request](https://github.com/kyashrathore/claxedo/issues/new?template=feature-request.yml) |
+| Ask a question or share an idea | [Discussions](https://github.com/kyashrathore/claxedo/discussions) |
 | Chat with other users | [Discord](https://discord.gg/GC6QagQ8QE) |
-| Report a security vulnerability | [Private vulnerability report](https://github.com/kyashrathore/claxedo-feedback/security/advisories/new), never a public issue |
+| Report a security vulnerability | [Private vulnerability report](https://github.com/kyashrathore/claxedo/security/advisories/new), never a public issue |
 
 ## Before you open an issue
 
