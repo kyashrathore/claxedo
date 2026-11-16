@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/kyashrathore/claxedo-feedback/discussions
+    about: Ask how something works or float an idea before filing a request.
+  - name: Discord
+    url: https://discord.gg/GC6QagQ8QE
+    about: Chat with other Claxedo users.
+  - name: Security vulnerability
+    url: https://github.com/kyashrathore/claxedo-feedback/security/advisories/new
+    about: Report privately. Do not open a public issue.

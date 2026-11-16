@@ -1,0 +1,68 @@
+name: Bug report
+description: Report something in Claxedo that is broken
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where
+      options:
+        - Desktop app
+        - Web app
+        - CLI
+        - Self-hosted server
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Claxedo version
+      placeholder: e.g. desktop 0.0.78, cli 0.3.0
+    validations:
+      required: false
+
+  - type: input
+    id: agent
+    attributes:
+      label: Agent
+      description: Which coding agent the session was running, if any.
+      placeholder: e.g. Claude, Codex, OpenCode, Cursor, Pi
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. macOS 26.0.1, Ubuntu 24.04, Windows 11
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or logs
+      description: This repository is public. Remove API keys, tokens and private code first.
+    validations:
+      required: false
